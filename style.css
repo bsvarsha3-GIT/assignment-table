@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  padding: 30px;
+}
+
+
+.heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
+.trip-form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 25px;
+  background-color: #e0acd5;
+}
+
+.trip-form label {
+  margin-top: 12px;
+  display: block;
+  font-weight: bold;
+}
+
+.trip-form input,
+.trip-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.trip-form input:focus,
+.trip-form select:focus {
+  border-color: pink;
+} 
+
+ .trip-form button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #b650ab;
+  color: white;
+  font-size: 15px;
+}
+
+.trip-table-wrapper {
+  display: none;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.trip-table {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.trip-table th,
+.trip-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.trip-table th {
+  background-color: palevioletred;
+  color: white;
+}
+
+.trip-table button {
+  padding: 6px 10px;
+  margin: 0 4px;
+}
+
+.trip-table button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.trip-table button:last-child {
+  background-color: #dc3545;
+  color: white;
+}

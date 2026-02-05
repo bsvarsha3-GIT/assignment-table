@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trip details</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./trip.png" type="image/x-icon">
+</head>
+<body>
+
+<h2 class="heading">Trip Booking Form</h2>
+
+<form id="tripForm" novalidate class="trip-form">
+
+  <label>Date</label>
+  <input type="date" id="tripDate">
+
+  <label>Name</label>
+  <input type="text" id="name">
+
+  <label>Place</label>
+  <select id="place">
+    <option value="">Select City</option>
+    <option value="Chennai">Chennai</option>
+    <option value="Bangalore">Bangalore</option>
+    <option value="Hyderabad">Hyderabad</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Delhi">Delhi</option>
+  </select>
+
+  <button type="submit">Submit</button>
+</form>
+
+<div id="tripDetailsSection" class="trip-table-wrapper">
+  <h2 class="heading">Trip Details</h2>
+
+  <table class="trip-table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Name</th>
+        <th>Place</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="tripTableBody"></tbody>
+  </table>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
